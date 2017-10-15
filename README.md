@@ -16,7 +16,22 @@ The project has these goals:
     cd custom-eclipse-ide/releng/repo.config
     vim pom.xml
 
-Add you favorite feature repository site to the &lt;repositories/&gt; section, with your favorite text editor.
+Add you favorite feature repository site to the &lt;repositories/&gt; section, with your favorite text editor. 
+Add Scala IDE repository, for instance, 
+
+    ...
+    <properties>
+      <scala-ide-repo.url>http://downloads.typesafe.com/scalaide/sdk/lithium/e47/scala212/stable/site</scala-ide-repo.url>
+    </properties>
+    <repositories>
+      ...
+      <repository>
+        <id>scala-ide</id>
+        <url>${scala-ide-repo.url}</url>
+        <layout>p2</layout>
+      </repository>
+    </repositories>
+    ...
 
 ### Create Your Customized Eclipse Project
 There are already pre-packed custom eclipse ide projects included for reference. You may
