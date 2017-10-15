@@ -5,7 +5,7 @@ A maven eclipse plugin project for building customized eclipse IDE.
 
 The project has these goals:
 
-* To build customized eclipse IDE with customized feature set, by pulling features from update sites, instead prescribed feature sets of the official releases.
+* To build customized eclipse IDE with customized feature set, by pulling features from update sites, instead of prescribed feature sets of the official releases.
 
 ## Usage
 
