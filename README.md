@@ -39,5 +39,5 @@ Add eclipse features instead of individual plugins, if your favorite feature is 
 ## Contribute to This Project
 
 * Bugfixes/Enhancements are welcome.
-* Do not submit your own customized eclipse product project, or eclipse feature set to this project.
+* Do not submit your own project customizations, or feature set selections to this project.
 
