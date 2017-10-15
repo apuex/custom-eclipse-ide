@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/my-custom.feature_1.0.0.qualifier.jar" id="my-custom.feature" version="1.0.0.qualifier">
+      <category name="Apuex"/>
+   </feature>
+   <category-def name="Apuex" label="Apuex my custom"/>
+</site>
