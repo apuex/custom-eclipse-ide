@@ -1,3 +1,9 @@
+target
+.project
+.settings
+.classpath
+.polyglot.build.properties
+
 # Compiled class file
 *.class
 
