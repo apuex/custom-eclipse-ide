@@ -14,14 +14,15 @@ The project has these goals:
 ### Add Repositories
     
     cd custom-eclipse-ide/releng/repo.config
+    vim pom.xml
 
 Add you favorite feature repository site to the &lt;repositories/&gt; section, with your favorite text editor.
 
 ### Create Your Customized Eclipse Project
-    There are already pre-packed custom eclipse ide projects included for reference. You may
+There are already pre-packed custom eclipse ide projects included for reference. You may
 
 * Edit the releng/xxx.product/xxx.product or,
-* Copy/Paste/Find/Replace..., and add it as a module to releng/pom.xml enjoy.
+* Copy/Paste/Find/Replace, and add it as a module to releng/pom.xml... enjoy.
 
 ### Add Features/Plugins to Customized Eclipse
 Add eclipse features instead of individual plugins, if your favorite feature is already packaged as feature, because it is too verbose to add individual plugins.
@@ -35,7 +36,7 @@ Add eclipse features instead of individual plugins, if your favorite feature is 
     unzip xxx.zip
     xxx/eclipse
 
-## Contribution to This Project
+## Contribute to This Project
 
 * Bugfixes/Enhancements are welcome.
 * Do not submit your own customized eclipse product project, or eclipse feature set to this project.
