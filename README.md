@@ -5,7 +5,7 @@ A maven eclipse plugin project for building customized eclipse IDE.
 
 The project has these goals:
 
-* To build customized eclipse IDE with customized feature set, by pulling features from update sites, instead of prescribed feature sets of the official releases.
+* To build customized eclipse IDE with customized feature set by pulling features from update sites when requirements cannot be met by feature sets of the official releases.
 
 ## Usage
 
@@ -40,7 +40,7 @@ There are already pre-packed custom eclipse ide projects included for reference.
 * Copy/Paste/Find/Replace, and add it as a module to releng/pom.xml... enjoy.
 
 ### Add Features/Plugins to Customized Eclipse
-Add eclipse features instead of individual plugins, if your favorite feature is already packaged as feature, because it is too verbose to add individual plugins.
+Add eclipse features instead of individual plugins, if your favorite feature is already packaged as feature, since it is too verbose to add individual plugins by hand.
 
 ### Build Package
 
