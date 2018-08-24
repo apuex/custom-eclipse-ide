@@ -43,8 +43,19 @@
       <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
       <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="com.google.eclipse.protobuf"/>
+      <feature id="org.eclipse.datatools.sqldevtools.feature"/>
+      <feature id="org.eclipse.wst.common_ui.feature"/>
+      <feature id="org.eclipse.wst.jsdt.feature"/>
+      <feature id="org.eclipse.wst.json_ui.feature"/>
+      <feature id="org.eclipse.wst.server_ui.feature"/>
+      <feature id="org.eclipse.wst.web_ui.feature"/>
+      <feature id="org.eclipse.wst.ws_ui.feature"/>
+      <feature id="org.eclipse.wst.xml_ui.feature"/>
+      <feature id="org.eclipse.wst.xsl.feature"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.pde"/>
+      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.equinox.p2.core.feature"/>
       <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
@@ -53,6 +64,7 @@
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.epp.package.jee.feature"/>
       <feature id="org.eclipse.jdt"/>
+      <feature id="org.eclipse.epp.mpc"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.ecf.core.feature"/>
       <feature id="org.eclipse.emf.common"/>

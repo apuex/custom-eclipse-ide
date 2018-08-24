@@ -15,6 +15,7 @@
 		<vrapper-repo.url>http://vrapper.sourceforge.net/update-site/stable</vrapper-repo.url>
         <texlipse-repo.url>http://download.eclipse.org/texlipse/2.0.0/</texlipse-repo.url>
         <scala-ide-repo.url>http://downloads.typesafe.com/scalaide/sdk/lithium/e47/scala212/stable/site</scala-ide-repo.url>
+        <protobuf-repo.url>http://google.github.io/protobuf-dt/updates/latest/</protobuf-repo.url>
 	</properties>
 	<repositories>
 		<repository>
@@ -40,6 +41,11 @@
 		<repository>
 			<id>scala-ide</id>
 			<url>${scala-ide-repo.url}</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>protobuf</id>
+			<url>${protobuf-repo.url}</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
