@@ -5,6 +5,7 @@ target
 .classpath
 *.iml
 .polyglot.build.properties
+.polyglot.feature.xml
 
 # Compiled class file
 *.class

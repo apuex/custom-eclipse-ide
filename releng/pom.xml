@@ -15,6 +15,7 @@
     <modules>
         <module>my-custom.update</module>
         <module>eclipse-cdt.product</module>
+        <module>eclipse-jee.product</module>
         <module>linuxtools.product</module>
     </modules>
 </project>
