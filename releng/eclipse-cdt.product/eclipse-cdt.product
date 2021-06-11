@@ -27,22 +27,19 @@
    <vm>
    </vm>
 
-   <plugins>
-       <plugin id="ch.qos.logback.slf4j" />
-   </plugins>
+    <plugins>
+        <plugin id="ch.qos.logback.slf4j" />
+        <plugin id="org.eclipse.cdt.cmake.is.arm" />
+        <plugin id="org.eclipse.cdt.cmake.is.microsoft" />
+    </plugins>
 
    <features>
       <feature id="net.sourceforge.vrapper"/>
-      <feature id="org.eclipse.equinox.p2.user.ui"/>
-      <feature id="org.eclipse.equinox.p2.core.feature"/>
-      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.epp.mpc"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.cdt"/>
       <feature id="org.eclipse.cdt.autotools"/>
       <feature id="org.eclipse.cdt.cmake"/>
-      <feature id="org.eclipse.cdt.gdb"/>
-      <feature id="org.eclipse.cdt.gnu.dsf"/>
       <feature id="org.eclipse.cdt.msw"/>
       <feature id="org.eclipse.cdt.visualizer"/>
       <feature id="org.eclipse.linuxtools.changelog"/>
