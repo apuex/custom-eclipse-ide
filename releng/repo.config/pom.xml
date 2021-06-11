@@ -10,7 +10,7 @@
 	<properties>
 		<tycho.version>2.3.0</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<eclipse-repo.url>http://download.eclipse.org/releases/oxygen</eclipse-repo.url>
+		<eclipse-repo.url>http://download.eclipse.org/releases/2021-03</eclipse-repo.url>
 		<orbit-repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20150821153341/repository/</orbit-repo.url>
 		<vrapper-repo.url>http://vrapper.sourceforge.net/update-site/stable</vrapper-repo.url>
         <texlipse-repo.url>http://download.eclipse.org/texlipse/2.0.0/</texlipse-repo.url>
@@ -86,16 +86,6 @@
 							<os>linux</os>
 							<ws>gtk</ws>
 							<arch>x86_64</arch>
-						</environment>
-						<environment>
-							<os>linux</os>
-							<ws>gtk</ws>
-							<arch>x86</arch>
-						</environment>
-						<environment>
-							<os>win32</os>
-							<ws>win32</ws>
-							<arch>x86</arch>
 						</environment>
 						<environment>
 							<os>win32</os>

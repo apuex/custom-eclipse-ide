@@ -28,6 +28,7 @@
    </vm>
 
    <plugins>
+       <plugin id="ch.qos.logback.slf4j" />
    </plugins>
 
    <features>
@@ -42,7 +43,6 @@
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
-      <feature id="org.eclipse.equinox.p2.extras.feature"/>
       <feature id="com.google.eclipse.protobuf"/>
       <feature id="org.eclipse.datatools.sqldevtools.feature"/>
       <feature id="org.eclipse.wst.common_ui.feature"/>
@@ -73,11 +73,12 @@
    </features>
 
    <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="-1" />
    </configurations>
 
    <preferencesInfo>
