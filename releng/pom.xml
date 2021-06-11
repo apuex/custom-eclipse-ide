@@ -14,7 +14,6 @@
     </parent>
     <modules>
         <module>my-custom.update</module>
-        <module>scala-ide.product</module>
         <module>eclipse-cdt.product</module>
         <module>linuxtools.product</module>
     </modules>

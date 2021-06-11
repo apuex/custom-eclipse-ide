@@ -43,6 +43,8 @@ There are already pre-packed custom eclipse ide projects included for reference.
 Add eclipse features instead of individual plugins, if your favorite feature is already packaged as feature, since it is too verbose to add individual plugins by hand.
 
 ### Build Package
+Requires JDK 1.8+ and apache maven 3.6.3+
+Maven 3.6.1 and 3.6.2 do not work with Tycho, see Bug 551674
 
     mvn package
 

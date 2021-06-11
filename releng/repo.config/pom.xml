@@ -8,7 +8,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
-		<tycho.version>0.25.0</tycho.version>
+		<tycho.version>2.3.0</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<eclipse-repo.url>http://download.eclipse.org/releases/oxygen</eclipse-repo.url>
 		<orbit-repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20150821153341/repository/</orbit-repo.url>
@@ -38,11 +38,13 @@
 			<url>${texlipse-repo.url}</url>
 			<layout>p2</layout>
 		</repository>
+		<!--
 		<repository>
 			<id>scala-ide</id>
 			<url>${scala-ide-repo.url}</url>
 			<layout>p2</layout>
 		</repository>
+		-->
 		<repository>
 			<id>protobuf</id>
 			<url>${protobuf-repo.url}</url>
