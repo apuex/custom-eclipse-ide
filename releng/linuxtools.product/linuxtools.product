@@ -33,11 +33,12 @@
 
    <features>
       <feature id="net.sourceforge.vrapper"/>
-      <feature id="org.eclipse.equinox.p2.user.ui"/>
-      <feature id="org.eclipse.equinox.p2.core.feature"/>
-      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.cdt"/>
       <feature id="org.eclipse.cdt.autotools"/>
+      <feature id="org.eclipse.linuxtools.changelog"/>
+      <feature id="org.eclipse.linuxtools.man"/>
+      <feature id="org.eclipse.linuxtools.rpm"/>
+      <feature id="org.eclipse.linuxtools.valgrind"/>
       <feature id="org.eclipse.platform"/>
    </features>
 
