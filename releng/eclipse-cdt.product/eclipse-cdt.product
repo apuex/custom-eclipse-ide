@@ -35,6 +35,7 @@
 
    <features>
       <feature id="net.sourceforge.vrapper"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature"/>
       <feature id="org.eclipse.epp.mpc"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.cdt"/>
