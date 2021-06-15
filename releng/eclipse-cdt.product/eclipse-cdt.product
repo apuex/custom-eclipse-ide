@@ -18,7 +18,6 @@
    <splash
       location="org.eclipse.platform" />
    <launcher name="eclipse">
-      <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
@@ -27,25 +26,33 @@
    <vm>
    </vm>
 
-    <plugins>
-        <plugin id="ch.qos.logback.slf4j" />
-        <plugin id="org.eclipse.cdt.cmake.is.arm" />
-        <plugin id="org.eclipse.cdt.cmake.is.microsoft" />
-    </plugins>
+   <plugins>
+      <plugin id="ch.qos.logback.slf4j" fragment="true"/>
+      <plugin id="org.eclipse.cdt.cmake.is.arm"/>
+      <plugin id="org.eclipse.cdt.cmake.is.microsoft"/>
+   </plugins>
 
    <features>
       <feature id="net.sourceforge.vrapper"/>
-      <feature id="org.eclipse.epp.mpc"/>
-      <feature id="org.eclipse.egit"/>
+      <feature id="net.sourceforge.vrapper.eclipse.cdt.feature"/>
+      <feature id="net.sourceforge.vrapper.plugin.clangformat"/>
       <feature id="org.eclipse.cdt"/>
       <feature id="org.eclipse.cdt.autotools"/>
       <feature id="org.eclipse.cdt.cmake"/>
       <feature id="org.eclipse.cdt.msw"/>
       <feature id="org.eclipse.cdt.visualizer"/>
+      <feature id="org.eclipse.cdt.native"/>
+      <feature id="org.eclipse.cdt.sdk"/>
+      <feature id="org.eclipse.cdt.testsrunner.feature"/>
+      <feature id="org.eclipse.cdt.gnu.multicorevisualizer"/>
+      <feature id="org.eclipse.epp.mpc"/>
+      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.linuxtools.changelog"/>
       <feature id="org.eclipse.linuxtools.man"/>
       <feature id="org.eclipse.linuxtools.rpm"/>
       <feature id="org.eclipse.linuxtools.valgrind"/>
+      <feature id="org.eclipse.linuxtools.callgraph.feature"/>
+      <feature id="org.eclipse.linuxtools.profiling"/>
       <feature id="org.eclipse.platform"/>
    </features>
 
