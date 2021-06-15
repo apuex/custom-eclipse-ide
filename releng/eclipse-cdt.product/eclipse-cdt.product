@@ -18,6 +18,7 @@
    <splash
       location="org.eclipse.platform" />
    <launcher name="eclipse">
+      <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
@@ -26,14 +27,15 @@
    <vm>
    </vm>
 
-   <plugins>
-      <plugin id="ch.qos.logback.slf4j" fragment="true"/>
-      <plugin id="org.eclipse.cdt.cmake.is.arm"/>
-      <plugin id="org.eclipse.cdt.cmake.is.microsoft"/>
-   </plugins>
+    <plugins>
+        <plugin id="ch.qos.logback.slf4j" />
+        <plugin id="org.eclipse.cdt.cmake.is.arm" />
+        <plugin id="org.eclipse.cdt.cmake.is.microsoft" />
+    </plugins>
 
    <features>
       <feature id="net.sourceforge.vrapper"/>
+      <feature id="org.eclipse.mylyn.wikitext_feature"/>
       <feature id="net.sourceforge.vrapper.eclipse.cdt.feature"/>
       <feature id="net.sourceforge.vrapper.plugin.clangformat"/>
       <feature id="org.eclipse.cdt"/>
